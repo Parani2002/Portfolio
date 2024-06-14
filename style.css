@@ -114,10 +114,12 @@ a:hover {
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+  
 }
 
 .menu-links li {
   list-style: none;
+
 }
 
 .menu-links.open {
@@ -189,6 +191,12 @@ table{
   align-self: center;
   text-align: center;
   flex: 1;
+  padding: 20px;
+  position: relative;
+  
+}
+.animated-name-container{
+  overflow: hidden;
 }
 
 
@@ -251,6 +259,9 @@ table{
   80% {margin-top: -5.62rem;}
   90% {margin-top: 0;}
   100% {margin-top: 0;}
+}
+#profile img{
+  display: block;
 }
 
 
